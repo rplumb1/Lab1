@@ -17,7 +17,7 @@ def howold():
 
   except TypeError:
      
-     print('“Please enter an int”')
+     print('Please enter an int')
   
   
   
