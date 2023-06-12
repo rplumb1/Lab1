@@ -1,6 +1,6 @@
 # Lab1
 
-
+```python
 from datetime import datetime
 
 
@@ -18,3 +18,4 @@ def howold():
   
 age = howold()
 print('You are ' + str(age) + ' years old.) 
+```
