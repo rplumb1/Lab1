@@ -5,14 +5,19 @@ from datetime import datetime
 
 
 def howold():
+  try:
+  
+    currentyear = datetime.now().year
 
-  currentyear = datetime.now().year
+    birthday = int(input('What year were you born? '))
 
-  birthday = int(input('What year were you born? '))
+    age = currentyear - birthday
 
-  age = currentyear - birthday
+    return age
 
-  return age
+  except TypeError:
+     
+     print('“Please enter an int”')
   
   
   
